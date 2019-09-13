@@ -1,0 +1,2 @@
+2012-06-21 17:08:23,453 [10] DEBUG - Called: Something.DoSomething(System.String)
+2012-06-21 17:08:23,453 [10] DEBUG - Called: Something.Augment(System.Int32)

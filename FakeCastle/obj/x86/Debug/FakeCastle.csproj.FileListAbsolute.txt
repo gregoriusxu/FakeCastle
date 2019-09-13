@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\FakeCastle\obj\x86\Debug\GOF.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\FakeCastle\obj\x86\Debug\GOF.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\FakeCastle\bin\Debug\GOF.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\FakeCastle\bin\Debug\GOF.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\FakeCastle\obj\x86\Debug\ResolveAssemblyReference.cache

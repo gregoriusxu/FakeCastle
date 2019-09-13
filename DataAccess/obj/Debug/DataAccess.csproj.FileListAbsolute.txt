@@ -1,0 +1,16 @@
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\GOF\GOFParttens\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\GOF\GOFParttens\bin\Debug\DataAccess.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\GOF\GOFParttens\bin\Debug\DataAccess.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\GOF\GOFParttens\obj\Debug\DataAccess.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\GOF\GOFParttens\obj\Debug\DataAccess.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\DataAccess\bin\Debug\DataAccess.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\DataAccess\bin\Debug\DataAccess.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\DataAccess\bin\Debug\Iesi.Collections.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\DataAccess\bin\Debug\log4net.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\DataAccess\bin\Debug\Iesi.Collections.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\DataAccess\bin\Debug\log4net.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\DataAccess\obj\Debug\DataAccess.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\DataAccess\obj\Debug\DataAccess.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\DataAccess\bin\Debug\NewLife.Core.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\DataAccess\bin\Debug\NewLife.Core.pdb

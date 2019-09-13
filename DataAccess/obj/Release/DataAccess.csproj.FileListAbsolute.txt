@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\DataAccess\bin\Release\DataAccess.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\DataAccess\bin\Release\DataAccess.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\DataAccess\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\DataAccess\obj\Release\DataAccess.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\FakeCastle\DataAccess\obj\Release\DataAccess.pdb

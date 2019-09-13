@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\GOF\GOF\bin\Debug\GOF.exe
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\GOF\GOF\bin\Debug\GOF.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\GOF\GOF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\GOF\GOF\obj\x86\Debug\GOF.exe
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\GOF\GOF\obj\x86\Debug\GOF.pdb

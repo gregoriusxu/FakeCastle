@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{537C0F81-9DC6-4BBF-B933-75788DCE568A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataAccess</RootNamespace>
+    <AssemblyName>DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\packages\Iesi.Collections.3.3.1.4000\lib\Net35\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.0\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="NewLife.Core">
+      <HintPath>E:\XCodes_Src\XCode\NewLife.Core\obj\Debug\NewLife.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cache\CacheKey.cs" />
+    <Compile Include="Cache\HashtableCache.cs" />
+    <Compile Include="Cache\ICache.cs" />
+    <Compile Include="Cache\ICacheConcurrencyStrategy.cs" />
+    <Compile Include="Cache\IQueryCache.cs" />
+    <Compile Include="Cache\IQueryCacheFactory.cs" />
+    <Compile Include="Cache\ISoftLock.cs" />
+    <Compile Include="Cache\NonstrictReadWriteCache.cs" />
+    <Compile Include="Cache\QueryKey.cs" />
+    <Compile Include="Cache\StandardQueryCache.cs" />
+    <Compile Include="Cache\StandardQueryCacheFactory.cs" />
+    <Compile Include="Cache\Timestamper.cs" />
+    <Compile Include="Cache\UpdateTimestampsCache.cs" />
+    <Compile Include="Configuration\AbstractConfiguation.cs" />
+    <Compile Include="Configuration\ConfigurationAttributeCollection.cs" />
+    <Compile Include="Configuration\ConfigurationSectionHandler.cs" />
+    <Compile Include="Configuration\Environment.cs" />
+    <Compile Include="Configuration\IConfiguration.cs" />
+    <Compile Include="Configuration\ConfigurationCollection.cs" />
+    <Compile Include="Configuration\IConfigurationSource.cs" />
+    <Compile Include="Configuration\InPlaceConfigurationSource.cs" />
+    <Compile Include="Configuration\MutableConfiguration.cs" />
+    <Compile Include="Configuration\XmlConfigurationSource.cs" />
+    <Compile Include="DatabaseFactory.cs" />
+    <Compile Include="Driver\DriverBase.cs" />
+    <Compile Include="Driver\IDriver.cs" />
+    <Compile Include="Driver\OracleClientDriver.cs" />
+    <Compile Include="Driver\SqlClientDriver.cs" />
+    <Compile Include="Engine\QueryParameters.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Starter.cs" />
+    <Compile Include="Util\DynamicMethodExecutor.cs" />
+    <Compile Include="Util\CollectionHelper.cs" />
+    <Compile Include="Util\CollectionPrinter.cs" />
+    <Compile Include="Util\DefaultModelBinder.cs" />
+    <Compile Include="Util\IModelBinder.cs" />
+    <Compile Include="Util\ModelBinderFactory.cs" />
+    <Compile Include="Util\ReflectHelper.cs" />
+    <Compile Include="Util\SqlHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
